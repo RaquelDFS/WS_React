@@ -11,8 +11,36 @@ a{
 .NavBarContainer{
     display: flex;
     justify-content: space-around;
-    width: 100%;
-    background-color: cornflowerblue;
+    width: 60%;
     height: 100px;
+    line-height: 100px;
     align-items: center;
+    margin: auto;
+}
+
+.NUl{
+    display: flex;
+    
+}
+.Nlink{
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    margin: 25px;
+    padding: 30px 0;
+}
+.Nlink:hover{
+    cursor: pointer;
+    color: rgba(254, 168, 219, 1);
+    text-decoration: underline rgba(254, 168, 219, 1) 1px;
+}
+
+.LogoText{
+ color:  rgba(254, 168, 219, 1);   
+}
+.LogoText:hover{
+    cursor: pointer;
+}
+#contactMe{
+    border: none;
+
 }

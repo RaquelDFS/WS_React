@@ -10,7 +10,7 @@ const NavBarSection = () => {
             <h1 className='LogoText'>LOGO</h1>
         </div>
         <div className='NavLinks'>
-            <ul>
+            <ul className='NUl'>
                 <li className='Nlink'>
                     <a href="#"> Home</a>
                 </li>
@@ -30,7 +30,7 @@ const NavBarSection = () => {
                     <a href="#"> Testimonial</a>
                 </li>
                 <li className='Nlink'>
-                    <button id="contactMe">Contact Me</button>
+                    <button className='btn'>Contact Me</button>
                 </li>
             </ul>
         </div>

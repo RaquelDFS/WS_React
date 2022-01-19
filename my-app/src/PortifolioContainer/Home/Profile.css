@@ -33,7 +33,7 @@
 }
 .profile-options{
     justify-content: space-between;
-    width: max-content;
+    width: auto;
 }
 .profile-picture{
     display: flex;

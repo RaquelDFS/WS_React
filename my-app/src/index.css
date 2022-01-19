@@ -41,7 +41,7 @@ body ::-webkit-scrollbar-thumb {
       cursor: pointer;
       transition: 0.2s;
       font-family: "Poppins SemiBold";
-      margin: 0 5rem;
+      margin: 0 10%;
     }
 
     #dwld-btn, .btn:active {
@@ -63,7 +63,7 @@ body ::-webkit-scrollbar-thumb {
       text-align: center;
     }
     #dwld-btn:active{
-     color: black;
+     color: white;
      background-color: black;
      
     }
