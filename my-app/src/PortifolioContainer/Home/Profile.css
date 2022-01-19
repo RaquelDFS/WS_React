@@ -1,0 +1,97 @@
+.colz{
+    background-image: url("../../assets/Home/icon-flower.png");
+    height: 70px;
+    width: 70px;
+    background-size: contain;
+    background-repeat: none;
+    background-position: center;
+
+
+}
+
+.profile-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10%;
+    min-height: fit-content;
+}
+.profile-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8em;
+}
+.profile-details{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 980px;
+}
+.profile-details-role{
+    margin-right: 10em;
+    margin-bottom: 2em;
+}
+.profile-options{
+    display: flex;
+    justify-content: space-between;
+    background-color: plum;
+    height: 100px;
+    width: 100px;
+}
+.profile-picture{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 380px;
+    width: 380px;
+}
+.profile-picture-background{
+    background-image: url("../../assets/Home/profile-pt.png");
+    background-size: cover;
+    background-repeat: none;
+    height: 380px;
+    width: 380px;
+}
+
+@media screen and (max-width:1110px){
+    .profile-picture{
+            margin: 0 0px 0 80px;
+    }
+    .profile-detail-name {
+        font-size: 20px;
+    }
+    .profile-options .btn {
+        width: 120px;
+        padding: 11px 0;
+        z-index: 700;
+    }
+}
+@media screen and (max-width:910px){
+    .profile-picture{
+        height: 320px;
+        width: 320px;
+            margin: 0 0px 0 4px;
+    }
+}
+
+@media screen and (max-width:810px){
+    .profile-picture{
+        margin: 0 !important;
+    }
+    .profile-parent{
+        flex-direction: column-reverse;
+        margin: 40px 0 0 0 ;
+    }
+    .profile-options{
+        display: flex;
+        justify-content: space-between;
+    }
+    .profile-details{
+        margin: 25px 0 0;
+    }
+    .profile-options, 
+    .profile-details-role{
+            text-align: center;
+    } 
+}

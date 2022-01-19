@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+  margin: 0;
+  font-family: 'Poppins Regular',sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+::-webkit-scrollbar {
+  width: 6px ;
+  height: 6px ;
+}
+
+body ::-webkit-scrollbar-thumb {
+  background-color: hsla(0, 0%, 100%, 0.16);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+::-webkit-scrollbar-track {
+  background: hsla(0, 0%, 100%, 0.1);
+}
+.pink-Lorem{
+  color: rgba(254, 168, 219, 1);
+  font-style: normal;
+}
+    .btn {
+      color: #fff;
+      border: none;
+      background-color: rgba(99, 96, 228, 1);
+      border-radius: 10px;
+      padding: 10px 0;
+      width: 160px;
+      cursor: pointer;
+      transition: 0.2s;
+      font-family: "Poppins SemiBold";
+    }
+
+    .btn:active {
+      transform: translateY(2px);
+    }
+
+    .btn:hover {
+      color: aliceblue;
+      background-color: #1f2235;
+      box-shadow: 0 0 0.5em black ;
+    }
+
+
+
+@media only screen and (max-width: 568px) {
+  .highlighted-btn {
+    z-index: -900;
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(80px);
+  transition: all 0.8s ease;
+}
+
+
+
