@@ -27,6 +27,11 @@ body ::-webkit-scrollbar-thumb {
 ::-webkit-scrollbar-track {
   background: hsla(0, 0%, 100%, 0.1);
 }
+.subtitle{
+  display: block;
+  margin: 10px 0;
+  color: rgba(99, 96, 228, 1);
+}
 .pink-Lorem{
   color: rgba(254, 168, 219, 1);
   font-style: normal;

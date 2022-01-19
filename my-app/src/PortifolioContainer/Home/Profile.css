@@ -1,12 +1,11 @@
 .colz{
+    display: inline-block;
     background-image: url("../../assets/Home/icon-flower.png");
     height: 70px;
     width: 70px;
     background-size: contain;
     background-repeat: none;
     background-position: center;
-
-
 }
 
 .profile-container{

@@ -12,9 +12,12 @@ const AboutUs = () => {
           <div className="AboutUs-details-role">
             <span className="prymary-text">
               {" "}
+              <h3 className='subtitle'>
+                Lorem Ipsum
+              </h3>
               <h1>
                 {" "}
-                <em className="pink-Lorem">Lorem Ipsum </em>is simply dummy text
+                <em className="pink-Lorem">Lorem Ipsum </em>is simply dummy text.
               </h1>
               <span className="AboutUs-role-tagline">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
