@@ -3,6 +3,7 @@ import Profile from "./PortifolioContainer/Home/Profile";
 import NavBarSection from "./PortifolioContainer/Nav_bar";
 import AboutUs from "./PortifolioContainer/AboutUs/AboutUs";
 import Wwd from "./PortifolioContainer/WhatWeDo/Wwd";
+import Wu from "./PortifolioContainer/WhyUs/Wu";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Profile/>
       <AboutUs/>
       <Wwd/>
+      <Wu/>
     </div>
   );
 };

@@ -19,7 +19,7 @@ const Wwd = () => {
       </div>
       
         <div className="table-blocks">
-          <table className="table" border="2">
+          <table className="table" >
             <tr>
               <td>
               <div className="blocks">
