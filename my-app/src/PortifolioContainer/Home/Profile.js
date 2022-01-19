@@ -20,7 +20,7 @@ export default function Profile() {
           </div>
           <div className="profile-options">
             <button className="btn"> Um Botão </button>
-            <a href="photoo.jpg" download="Photo legal" className="bnt" id="dwld-btn">Get photo legal</a>
+            <a href="photoo.jpg" download="Photo legal" className="bnt" id="dwld-btn">Get photo</a>
           </div>
         </div>
         <div className="profile-picture">
