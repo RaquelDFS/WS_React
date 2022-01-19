@@ -6,7 +6,7 @@
     text-align: center;
     height: 10%;
     min-height: fit-content;
-    margin: 8em;
+    margin: 8em 25rem;
 }
 .wwd-principal{
     margin-bottom: 20px;
@@ -16,7 +16,35 @@
     margin: 30px 0;
 }
 
-.blocks{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
+.table{
+    border: none;
 }
+
+td, tr{
+    border: none;
+}
+    .blocks{
+        background-color: rgba(255, 255, 255, 0.521);
+        margin: 15px;
+        padding: 15px;
+        transition: ease 1s;
+    }
+    .blocks:hover{
+        background-color: #fff;
+        cursor: pointer;
+        box-shadow:  0 0 4em rgba(99, 96, 228, 0.53);
+        height: 5%;
+
+    }
+
+
+        .title-block{
+            font-size: medium;
+            letter-spacing: 2px;
+            margin-bottom: 15px;
+
+        }
+        .paragraph-block{
+            font-size: small;
+            margin: 20px;
+        }
