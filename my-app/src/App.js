@@ -4,6 +4,7 @@ import NavBarSection from "./PortifolioContainer/Nav_bar";
 import AboutUs from "./PortifolioContainer/AboutUs/AboutUs";
 import Wwd from "./PortifolioContainer/WhatWeDo/Wwd";
 import Wu from "./PortifolioContainer/WhyUs/Wu";
+import Price from "./PortifolioContainer/Price/Price";
 
 function App() {
   return (
@@ -13,6 +14,8 @@ function App() {
       <AboutUs/>
       <Wwd/>
       <Wu/>
+      <Price/>
+
     </div>
   );
 };

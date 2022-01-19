@@ -1,0 +1,64 @@
+.conteiner-price{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 10%;
+    min-height: fit-content;
+    padding-top: 200px;
+    background-image: linear-gradient(white,rgba(230, 246, 250, 1) );
+}
+    #group {
+            position: relative;
+            border: 3px solid rgba(99, 96, 228, 0.53);
+            background-color: rgba(255, 255, 255, 0);
+            border-radius: 5px;
+            margin-bottom: 10rem;
+            width: 230px;
+        }
+        .stch-container{
+            margin-top: -40px;
+        }
+        
+        .switch {
+            display: flex;
+            justify-content: space-around;
+            line-height: 50px;
+            position: relative;
+            border: none;
+            font-family: 'poppins';
+            font-weight: bold;
+            color: rgb(255, 255, 255);
+            height: 50px;
+        }
+        
+        
+        
+        .switch input {
+            position: absolute;
+            opacity: 0;
+        }
+        
+        
+        .switch label {
+            position: relative;
+            z-index: 2;
+            float: left;
+            text-align: center;
+            color: rgba(99, 96, 228, 0.53);
+            cursor: pointer;
+            transition: all .3s ease-out;
+            padding: 0 30px;
+        }
+        
+        .switch input:checked + label {
+            color: #ffffff;
+            background-color: rgba(99, 96, 228, 0.53);
+        }
+        
+        .switch input:focus + label {
+            outline: none;
+        }
+        
+       
