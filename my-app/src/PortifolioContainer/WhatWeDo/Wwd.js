@@ -6,7 +6,7 @@ const Wwd = () => {
     <div id="wwdd" className="wwd-container">
       <div className="wwd-principal">
         <div className="colz middle-colz" />
-        <h3 className="subtitle">Lorem Ipsum</h3>
+        <h3 className="subtitle">What We Do</h3>
         <h1>
           {" "}
           Lorem Ipsum is simply <em className="pink-Lorem">dummy text.</em>

@@ -12,16 +12,13 @@ const NavBarSection = () => {
         <div className='NavLinks'>
             <ul className='NUl'>
                 <li className='Nlink'>
-                    <a href="#"> Home</a>
-                </li>
-                <li className='Nlink'>
                     <a href="#AboutUs"> About Us</a>
                 </li>
                 <li className='Nlink'>
                     <a href="#wwdd"> What We Do</a>
                 </li>
                 <li className='Nlink'>
-                    <a href="#"> Why Us</a>
+                    <a href="#whyusid"> Why Us</a>
                 </li>
                 <li className='Nlink'>
                     <a href="#"> Prices</a>

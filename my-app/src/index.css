@@ -28,16 +28,15 @@ body ::-webkit-scrollbar-thumb {
   background: hsla(0, 0%, 100%, 0.1);
 }
 .container{
-  background-color: white;
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  text-align: center;
   height: 10%;
   min-height: fit-content;
+  margin: 8em 25rem;
 }
-
-
-
 
 .subtitle{
   display: block;

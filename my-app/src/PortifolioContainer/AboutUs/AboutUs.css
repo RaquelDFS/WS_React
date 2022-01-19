@@ -5,6 +5,7 @@
     justify-content: center;
     height: 10%;
     min-height: fit-content;
+    
 }
 
 .AboutUs-parent{
@@ -13,7 +14,8 @@
     justify-content: center;
     height: 10%;
     min-height: fit-content;
-    margin: 8em;
+    margin: 8em 0;
+    max-width: 1015px;
 }
 
     .AboutUs-details{

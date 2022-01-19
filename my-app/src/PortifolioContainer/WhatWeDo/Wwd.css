@@ -32,7 +32,7 @@ td, tr{
     .blocks:hover{
         background-color: #fff;
         cursor: pointer;
-        box-shadow:  0 0 4em rgba(99, 96, 228, 0.53);
+        box-shadow:  0 0 3em rgba(99, 96, 228, 0.53);
         height: 5%;
 
     }

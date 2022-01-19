@@ -10,16 +10,18 @@
 
 .profile-container{
     display: flex;
-    align-items: center;
     justify-content: center;
+    text-align: left;
     height: 10%;
     min-height: fit-content;
+    min-width: 980px;
 }
 .profile-parent{
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 8em;
+    max-width: 1015px;
 }
 .profile-details{
     display: flex;

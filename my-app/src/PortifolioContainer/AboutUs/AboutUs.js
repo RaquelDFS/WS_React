@@ -13,7 +13,7 @@ const AboutUs = () => {
             <span className="prymary-text">
               {" "}
               <h3 className='subtitle'>
-                Lorem Ipsum
+                About Us
               </h3>
               <h1>
                 {" "}
