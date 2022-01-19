@@ -15,7 +15,7 @@ const NavBarSection = () => {
                     <a href="#"> Home</a>
                 </li>
                 <li className='Nlink'>
-                    <a href="#"> About Us</a>
+                    <a href="#AboutUs"> About Us</a>
                 </li>
                 <li className='Nlink'>
                     <a href="#"> What We Do</a>

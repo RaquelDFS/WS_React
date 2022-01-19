@@ -11,9 +11,9 @@ a{
 .NavBarContainer{
     display: flex;
     justify-content: space-around;
-    width: 60%;
-    height: 100px;
-    line-height: 100px;
+    text-align: center;
+    overflow: hidden;
+    flex-wrap: wrap;
     align-items: center;
     margin: auto;
 }

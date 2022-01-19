@@ -1,3 +1,28 @@
-h1{
-    color: violet;
+.AboutUs-container{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10%;
+    min-height: fit-content;
 }
+
+.AboutUs-parent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10%;
+    min-height: fit-content;
+    margin: 8em;
+}
+
+    .AboutUs-details{
+        margin-left: 40px;
+    }
+    .AboutUs-options{
+        margin: 20px 0px;
+    }
+    .ALink{
+        text-decoration: rgba(254, 168, 219, 1) 1px underline;
+        color: rgba(254, 168, 219, 1);
+    }
