@@ -15,3 +15,8 @@
     display: inline-block;
     margin: 30px 0;
 }
+
+.blocks{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
