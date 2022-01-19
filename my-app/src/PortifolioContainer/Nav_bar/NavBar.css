@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.NavBarContainer{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: cornflowerblue;
+    height: 100px;
+    align-items: center;
+}
