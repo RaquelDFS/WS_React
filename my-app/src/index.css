@@ -31,7 +31,7 @@ body ::-webkit-scrollbar-thumb {
   color: rgba(254, 168, 219, 1);
   font-style: normal;
 }
-    .btn {
+    #dwld-btn, .btn {
       color: #fff;
       border: none;
       background-color: rgba(99, 96, 228, 1);
@@ -41,6 +41,7 @@ body ::-webkit-scrollbar-thumb {
       cursor: pointer;
       transition: 0.2s;
       font-family: "Poppins SemiBold";
+      margin: 0 5rem;
     }
 
     .btn:active {
@@ -51,6 +52,11 @@ body ::-webkit-scrollbar-thumb {
       color: aliceblue;
       background-color: #1f2235;
       box-shadow: 0 0 0.5em black ;
+    }
+
+    #dwld-btn{
+      text-decoration: none ;
+      
     }
 
 

@@ -14,17 +14,13 @@ export default function Profile() {
               <h1> <em className='pink-Lorem'>Lorem Ipsum </em>is simply dummy text</h1>
               <span className="profile-role-tagline">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type.
+                industry. 
               </span>
             </span>
           </div>
-          <div classNmae="profile-options">
+          <div className="profile-options">
             <button className="btn"> Um Botão </button>
-            <a href="photoo.jpg" download="Photo legal">
-              <button className="bnt" >Get photo legal</button>
-            </a>
+            <a href="photoo.jpg" download="Photo legal" className="bnt" id="dwld-btn">Get photo legal</a>
           </div>
         </div>
         <div className="profile-picture">
