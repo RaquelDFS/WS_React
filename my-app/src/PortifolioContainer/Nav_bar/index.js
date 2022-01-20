@@ -4,7 +4,7 @@ import './NavBar.css'
 const NavBarSection = () => {
   return (
   <>
-    <nav className='NavBarContainer'>
+    <nav  id="NavBB"className='NavBarContainer'>
         <div clasName='NavLogo'>
             <div className='LogoImage'></div>
             <h1 className='LogoText'>LOGO</h1>

@@ -7,6 +7,8 @@ import Wu from "./PortifolioContainer/WhyUs/Wu";
 import Price from "./PortifolioContainer/Price/Price";
 import Testimonial from "./PortifolioContainer/Testimonial/Testimonial";
 import Clients from "./PortifolioContainer/Clients/Clients";
+import ContactMe from "./PortifolioContainer/ContactMe/ContactMe";
+import Footer from "./PortifolioContainer/Footer/Footer"
 
 function App() {
   return (
@@ -19,7 +21,8 @@ function App() {
       <Price/>
       <Testimonial/>
       <Clients/>
-
+      <ContactMe/>
+      <Footer/>
     </div>
   );
 };

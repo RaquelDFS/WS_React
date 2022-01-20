@@ -1,0 +1,34 @@
+.footer-components{
+    display: flex;
+    background-color: rgba(98, 96, 228);
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding: 30px;
+    color: white;
+    
+}
+
+.footer{
+    background-color: rgba(98, 96, 228);
+}
+.line{
+    height: 1px;
+    background-image: linear-gradient(to right,rgba(98, 96, 228), rgb(255, 255, 255), rgba(98, 96, 228));
+  border: none;
+  outline: none;
+  margin: 0em 3em 5em;
+  position: relative;
+}
+
+.footer-site{
+    display: flex;
+}
+
+.text-footer{
+    font-weight: 100;
+    letter-spacing: 2px ;
+    font-size: 0.6rem;
+    margin-left: 25px;
+}

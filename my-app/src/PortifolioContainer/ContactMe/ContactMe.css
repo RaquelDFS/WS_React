@@ -1,0 +1,37 @@
+.container-contactMe{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 100px;
+    background-color: rgba(98, 96, 228);
+}
+
+.content-contactMe{
+    color: white;
+}
+.white{
+    color: white;
+    font-weight: normal;
+}
+
+.diferent{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-size: contain;
+    background-repeat: none;
+    background-position: center;
+    background-image: url(../../assets/contactMe/icon.svg);
+    filter: invert(81%) sepia(100%) saturate(2%) hue-rotate(65deg) brightness(110%) contrast(100%);
+    
+}
+
+.strange{
+    background-color: white;
+    color: rgba(98, 96, 228);
+    padding: 10px 20px;
+}
+
