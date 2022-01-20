@@ -5,6 +5,7 @@
     align-items: center;
     text-align: center;
     height: 10%;
+    margin-bottom: 100px;
     min-height: fit-content;
     padding-top: 200px;
     background-image: linear-gradient(white,rgba(230, 246, 250, 1) );
@@ -61,4 +62,42 @@
             outline: none;
         }
         
-       
+        .circle {
+            position: relative;
+            bottom: 376px;
+            right: 438px;
+    background: rgba(98, 96, 228, 0.226);
+    -webkit-clip-path: circle(50%);
+    clip-path: circle(50%);
+    height: 30em;
+    width: 30em;
+    }
+
+    .sessao-price-tag{
+        display: flex;
+        max-width: 980px;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .price-component-first{
+        box-sizing: border-box;
+        background-color: rgb(255, 255, 255);
+        width: 400px;
+        height: 500px;
+        z-index: 2;
+    }
+    .price-component{
+        box-sizing: border-box;
+        background-color: rgb(255, 255, 255);
+        width: 400px;
+        height: 500px;
+        z-index: 3;
+    }
+    .price-component-second{
+        box-sizing: border-box;
+        z-index: 5;
+        background-color: rgb(255, 255, 255);
+        width: 400px;
+        height: 550px;
+        box-shadow: 0 0 3rem rgba(98, 96, 228, 0.226) ;
+    }
