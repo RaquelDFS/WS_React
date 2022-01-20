@@ -24,7 +24,7 @@ const NavBarSection = () => {
                     <a href="#prices"> Prices</a>
                 </li>
                 <li className='Nlink'>
-                    <a href="#"> Testimonial</a>
+                    <a href="#testmonial"> Testimonial</a>
                 </li>
                 <li className='Nlink'>
                     <button className='btn'>Contact Me</button>

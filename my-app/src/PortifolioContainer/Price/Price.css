@@ -62,17 +62,6 @@
             outline: none;
         }
         
-        .circle {
-            position: relative;
-            bottom: 376px;
-            right: 438px;
-            background: rgba(98, 96, 228, 0.226);
-            -webkit-clip-path: circle(50%);
-            clip-path: circle(50%);
-            height: 30em;
-            width: 30em;
-    }
-
     .sessao-price-tag{ 
         display: flex;
         max-width: 980px;

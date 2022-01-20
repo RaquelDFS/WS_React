@@ -30,7 +30,7 @@ const Price = () => {
       <section>
         <div className="sessao-price-tag">
           <div className="price-component first">
-            <div  className="price-tag">
+            <div className="price-tag">
               <h1>Lorem Ipsum</h1>
               <p className="price-price">
                 <em className="pink-Lorem">

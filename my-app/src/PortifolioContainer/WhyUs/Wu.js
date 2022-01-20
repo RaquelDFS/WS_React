@@ -12,7 +12,7 @@ const Wu = () => {
           <span className="prymary-text">
             {" "}
             <h3 className="subtitle" id="why-us">Why Us</h3>
-            <h1>
+            <h1 className="h1">
               {" "}
               <em className="pink-Lorem">Lorem Ipsum </em>is simply dummy text.
             </h1>
