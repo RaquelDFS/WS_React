@@ -12,27 +12,29 @@ const NavBarSection = () => {
         <div className='NavLinks'>
             <ul className='NUl'>
                 <li className='Nlink'>
-                    <a href="#AboutUs"> About Us</a>
+                    <a href="#AboutUs" className='behave-a'> About Us</a>
                 </li>
                 <li className='Nlink'>
-                    <a href="#wwdd"> What We Do</a>
+                    <a href="#wwdd" className='behave-a'> What We Do</a>
                 </li>
                 <li className='Nlink'>
-                    <a href="#whyusid"> Why Us</a>
+                    <a href="#whyusid" className='behave-a'> Why Us</a>
                 </li>
                 <li className='Nlink'>
-                    <a href="#prices"> Prices</a>
+                    <a href="#prices" className='behave-a' > Prices</a>
                 </li>
                 <li className='Nlink'>
-                    <a href="#testmonial"> Testimonial</a>
+                    <a href="#testmonial" className='behave-a'> Testimonial</a>
                 </li>
                 <li className='Nlink'>
                     <button className='btn'>Contact Me</button>
                 </li>
             </ul>
         </div>
+        
     </nav>
   </>
+  
   )
 };
 

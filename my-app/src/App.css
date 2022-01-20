@@ -1,5 +1,6 @@
 html { 
     background: rgb(230, 246, 250) no-repeat center center fixed; 
+    scroll-behavior: smooth;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

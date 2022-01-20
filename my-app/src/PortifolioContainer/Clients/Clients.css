@@ -1,0 +1,35 @@
+.container-clients{
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    height: 10%;
+    min-height: fit-content;
+    }
+    
+    .contant-clients{
+        display: flex;
+        text-align: left;
+        align-items: center;
+        justify-content: center;
+        height: 10%;
+        min-height: fit-content;
+        margin: 8em ;
+        max-width: 1015px;
+    }
+
+.c-image{
+    background-image: url(../../assets/clients/clients.svg);
+    background-size: contain;
+    height: 111px;
+    width: 111px;
+    background-repeat: none;
+    margin: 0 40px;
+    transform: rotate(150deg) ;
+    filter: grayscale(1);
+    transition: ease 0.8s ;
+}
+.c-image:hover{
+    filter: none;
+    cursor: pointer;
+}

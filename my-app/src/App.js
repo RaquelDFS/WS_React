@@ -6,6 +6,7 @@ import Wwd from "./PortifolioContainer/WhatWeDo/Wwd";
 import Wu from "./PortifolioContainer/WhyUs/Wu";
 import Price from "./PortifolioContainer/Price/Price";
 import Testimonial from "./PortifolioContainer/Testimonial/Testimonial";
+import Clients from "./PortifolioContainer/Clients/Clients";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Wu/>
       <Price/>
       <Testimonial/>
+      <Clients/>
 
     </div>
   );
