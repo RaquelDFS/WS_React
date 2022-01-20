@@ -66,38 +66,73 @@
             position: relative;
             bottom: 376px;
             right: 438px;
-    background: rgba(98, 96, 228, 0.226);
-    -webkit-clip-path: circle(50%);
-    clip-path: circle(50%);
-    height: 30em;
-    width: 30em;
+            background: rgba(98, 96, 228, 0.226);
+            -webkit-clip-path: circle(50%);
+            clip-path: circle(50%);
+            height: 30em;
+            width: 30em;
     }
 
-    .sessao-price-tag{
+    .sessao-price-tag{ 
         display: flex;
         max-width: 980px;
         justify-content: space-around;
         align-items: center;
+        vertical-align: middle;
     }
-    .price-component-first{
+    .price-component{ 
         box-sizing: border-box;
         background-color: rgb(255, 255, 255);
-        width: 400px;
-        height: 500px;
+        width: 580px;
+        height: 640px;
+        padding: 60px 0 ;
+    }
+    .first{
         z-index: 2;
     }
-    .price-component{
-        box-sizing: border-box;
-        background-color: rgb(255, 255, 255);
-        width: 400px;
-        height: 500px;
+    .terceiro{
         z-index: 3;
     }
-    .price-component-second{
-        box-sizing: border-box;
+    
+    .second{ /*Esse é o que fica em destaque*/
         z-index: 5;
-        background-color: rgb(255, 255, 255);
-        width: 400px;
-        height: 550px;
+        width: 600px;
+        height: 700px;
         box-shadow: 0 0 3rem rgba(98, 96, 228, 0.226) ;
+        transition: ease 0.5s;
     }
+    .second:hover{
+        box-shadow: 0 0 5rem rgba(98, 96, 228, 0.808) ;
+    }
+    .yes, .not {
+        margin: 50px;
+        border-radius: 0;
+        width: 70%;
+    }
+    .not{
+        background-color: rgb(170, 101, 135);
+    }
+    .yes{
+        background-color: hotpink;
+    }
+    .yes:hover{
+        transition: ease 0.5s;
+        background-color: rgb(68, 211, 49);
+        box-shadow: 0 0 7px rgb(68, 211, 49);
+    }
+    .price-price{
+        font-size: 22px;
+        font-weight: 600;
+        margin: 20px 0;
+    }
+    .item-price{
+        display: inline-block;
+        font-size: 12px;
+        font-weight: 600;
+        border-bottom: 2px solid rgb(209, 209, 209);
+        padding: 18px;
+    }
+    .not-have{
+        color: rgb(209, 209, 209);
+    }
+
